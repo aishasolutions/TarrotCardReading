@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Free tarot reading : A unique interactive experience - Evatarot.net</title>
+
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/png" href="~/assests/images/favicon.png">
+    <link rel="apple-touch-icon" href="~/assests/images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/assests/images/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/assests/images/icons/apple-touch-icon-114x114.png">
+    <link rel="manifest" href="~/assests/js/manifest.json">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="~/assests/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/assests/css/animate.css" />
+    <link rel="stylesheet" href="~/assests/css/style.css" />
+    <link rel="stylesheet" href="~/assests/css/global.css" />
+    <script>
+        document.createElement("picture");
+    </script>
+    <script src="~/assests/js/picturefill.min.js" async></script>
+    <script src="~/assests/js/vendor/jquery.js"></script>
+    <script src="~/assests/js/bootstrap.js"></script>
+    <script src="~/assests/js/script.js"></script>
+
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <div class="menu_contour">
+                <a style="border-bottom:1px solid #ddd;margin-bottom:20px;font-size:18px;color:#ddd;padding-bottom:8px;">All tarot readings</a>
+                <a href="index.html" class='actif'>The Latin Tarot</a>
+                <a href="psychic-reading/index.html">The Psychic Reading</a>
+                <a href="love-tarot/index.html">The Love Tarot</a>
+                <a href="tarot-yes-no/index.html">The Yes/No Tarot</a>
+                <a href="celtic-cross-tarot/index.html">The Celtic Cross</a>
+                <a href="angel-tarot/index.html">The Angel Tarot</a>
+                <a href="oracle-cards/index.html">The Oracle Cards</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="index.html" class="logo" title="Free tarot reading">
+                        <img src="images/logo.png" alt="Evatarot.Net">
+                        <h1>Evatarot.<span>Net</span></h1>
+                    </a>
+                </div>
+
+                <div class="col-xs-6">
+                    <div class="right-header align_right">
+                        <div class="inline">
+                            <span onClick="openNav()" class="the_span" id="the_span">&#9776;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        @RenderBody()
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <nav>
+                            <ul class="inline">
+                                <li><span>Copyright 2021</span></li>
+                                <li><a href="terms.html">Terms</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="inline">
+                            <li style="margin-bottom:10px;">
+                                <a href="index.html" title="Evatarot.net" target="_blank"><img src="~/assests/images/flags/us.jpg" style="width: 25px;margin-top: -8px;"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.altarocchi.it/" title="AlTarocchi.it" target="_blank"><img src="~/assests/images/flags/it.jpg" style="width: 25px;margin-top: -8px;"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.gotarot.de/" title="GoTarot.de" target="_blank"><img src="~/assests/images/flags/de.jpg" style="width: 25px;margin-top: -8px;"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.esotarot.es/" title="Esotarot.es" target="_blank"><img src="~/assests/images/flags/es.jpg" style="width: 25px;margin-top: -8px;"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.otarot.net/" title="Otarot.net" target="_blank"><img src="~/assests/images/flags/br.jpg" style="width: 25px;margin-top: -2px;"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="subfooter">
+            <p>The future does not just happen. You have to prepare for it.</p>
+        </div>
+        <!-- footer -->
+
+        <div class="mask"></div>
+
+        <script>
+            function openNav() {
+
+                if (document.getElementById("the_span").innerText == "×") {
+                    document.getElementById("myNav").style.height = "0%";
+                    document.getElementById("the_span").innerHTML = "&#9776;";
+                }
+
+                else {
+                    if ($(window).width() > 900) { document.getElementById("myNav").style.height = "60%"; }
+                    else { document.getElementById("myNav").style.height = "100%"; }
+                    document.getElementById("the_span").innerHTML = "×";
+                }
+            }
+
+            $(window).click(function () {
+                document.getElementById("myNav").style.height = "0%";
+                document.getElementById("the_span").innerHTML = "&#9776;";
+            });
+
+            $('.overlay').click(function (event) {
+                event.stopPropagation();
+            });
+
+            $('header').click(function (event) {
+                event.stopPropagation();
+            });
+        </script>
+</body>
+</html>

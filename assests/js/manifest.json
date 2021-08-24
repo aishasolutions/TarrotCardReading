@@ -1,0 +1,19 @@
+{
+"name": "Evatarot.net",
+"short_name": "Evatarot.net",
+"icons": [
+    {
+        "src": "https://www.evatarot.net/images/icons/apple-touch-icon-114x114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+    },
+    {
+        "src": "https://www.evatarot.net/images/icons/icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }    
+],
+"theme_color": "#000",
+"background_color": "#000",
+"display": "standalone"
+}
