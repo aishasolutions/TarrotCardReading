@@ -145,7 +145,7 @@ $(document).ready(function () {
     
     $(this).parent('li').css('z-index', 23);
 
-    if ( oNbCard <= 10 ) {
+    if ( oNbCard <= 3 ) {
       $(this).children('.back-card').addClass('rotate');
       $(this).children('.back-card').delay(250).fadeOut();
       setTimeout(function(){ $('.card .back-card.rotate').removeClass('rotate'); },1000);    
@@ -171,7 +171,7 @@ $(document).ready(function () {
 
       $(this).parent('li').css('z-index', zIndex);
 
-      if ( oNbCard == 10 ) {
+      if ( oNbCard == 3 ) {
         //setTimeout(function(){  window.location.replace("http://www.google.fr"); },4000);
         setTimeout(function(){  $('.send-form').submit(); },1000);
       }
@@ -182,7 +182,7 @@ $(document).ready(function () {
 
     }else{
 
-      alert('You have already drawn the 10 cards');
+      alert('You have already drawn the 3 cards');
 
     }
     

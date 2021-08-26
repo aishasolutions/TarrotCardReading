@@ -146,7 +146,7 @@ header {
   width: 100%;
   z-index: 100;
 }
-.logo img {vertical-align: top; width: 43px; }
+.logo img {vertical-align: top; width: 80px; }
 .logo h1 {
   color: #fff;
   display: inline-block;
@@ -181,9 +181,9 @@ header {
 .dark-section.section-step {padding: 3rem 0 7rem; }
 .dark-section p {color: #fff;}
 .radius.profil.fl {
-  height: 107px;
+  height: 80px;
   margin: 2rem 2rem 0rem 0;
-  width: 106px;
+  width: 80px;
 }
 .title {
   border-bottom: 1px solid #fff;
