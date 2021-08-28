@@ -234,6 +234,9 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_CardReading.cshtml" />
     <Content Include="Views\Shared\_AboutSection.cshtml" />
+    <Content Include="Views\Home\cardresult.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

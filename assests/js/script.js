@@ -119,7 +119,7 @@ $(document).ready(function () {
     //$('.mask').show();
 
     var oHtml   =   $(this).children('.hidden-card').attr('src');
-    $('input[name="card-' + oNbCard + '"]').val(oHtml);
+    $('input[name="card' + oNbCard + '"]').val(oHtml);
 
     if ( oWindowWidth > 500) {
       var   p           = $( this ).parent('li'),

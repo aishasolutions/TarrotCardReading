@@ -12,6 +12,11 @@ namespace TarrotCardReading.Controllers
         {
             return View();
         }
+        public ActionResult cardresult(string card1)
+        {
+            
+            return View();
+        }
 
         public ActionResult About()
         {
@@ -20,10 +25,17 @@ namespace TarrotCardReading.Controllers
             return View();
         }
 
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            
             return View();
         }
     }

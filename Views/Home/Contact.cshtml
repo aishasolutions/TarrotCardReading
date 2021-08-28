@@ -1,17 +1,242 @@
-﻿@{
-    ViewBag.Title = "Contact";
+﻿
+@{
+    ViewBag.Title = "cardresult";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div class="content">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <section class="dark-section section-step interpretation-step">
+        <div class="container">
+
+
+            <div class="row">
+               
+                    <style type="text/css">
+                        #email_inside, #prenom_inside {
+                            color: #000;
+                            font-size: 16px;
+                            padding: 3px;
+                            width: 210px;
+                        }
+
+                            #email_inside .inside, #prenom_inside .inside {
+                                font-size: 16px;
+                                font-weight: 300;
+                            }
+
+                        #inside_ok, #inside_ok_2 {
+                            padding: 0.5rem 0rem;
+                            margin: 4px 0px 0px 0px;
+                            font-size: 15px;
+                        }
+
+                        #inside_step1 .btn_inside, #inside_step2 .btn_inside {
+                            margin: 0;
+                            text-align: left;
+                        }
+
+                        #inside_step2 {
+                            -webkit-animation-name: fadeIn; /* Fade in the background */
+                            -webkit-animation-duration: 4s;
+                            animation-name: fadeIn;
+                            animation-duration: 4s;
+                            color: #fff;
+                        }
+
+                            #inside_step2 input {
+                                color: #000;
+                            }
+
+                        .boxopt {
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+
+                        #inside_step2 .boxopt {
+                            display: inline-block;
+                            text-indent: 0px;
+                            margin-top: -30px;
+                            padding-left: 10px;
+                        }
+
+                        #media (min-width: 992px) {
+                            #inside_step2 .col-md-6
+
+                        {
+                            width: 160px;
+                        }
+
+                        }
+
+                        #inside_step2 .right-form {
+                            text-align: left;
+                        }
+
+                        #inside_step2 .mentions {
+                            width: 100%;
+                        }
+
+                        #inside_step2 .bottom_sexe label {
+                            font-weight: 300;
+                            font-size: 13px;
+                        }
+
+                        #inside_step2 input[type="radio"] {
+                            margin: 0.5rem 0.5rem 0 0;
+                        }
+                    </style>
+
+
+
+
+                   
+
+
+
+            <style>
+                .boxopt {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+
+                .check_row {
+                    margin: auto;
+                }
+
+                .boxopt a {
+                    color: #fff;
+                    text-decoration: underline;
+                }
+
+                .checkons {
+                    text-align: left;
+                    margin: 10px auto 0 auto;
+                    width: 350px;
+                }
+
+                .check_row label {
+                    display: block;
+                    padding-left: 15px;
+                    text-indent: -15px;
+                }
+
+                #check2, #check_callback {
+                    width: 13px;
+                    height: 13px;
+                    padding: 0;
+                    margin: 0;
+                    vertical-align: bottom;
+                    position: relative;
+                    top: -1px;
+                    *overflow: hidden;
+                    margin-right: 6px;
+                }
+
+                #media screen and (max-width: 900px) {
+                    #telephone
+
+                {
+                    margin-top: 5px;
+                }
+                }
+            </style>
+                
+            <div id="ajax_question">
+                <br /><br /><br /><br />
+                <h2 class="title_result">Contact Us</h2>
+                @* <p style="text-align:center;margin-bottom:20px;">I will send you a free e-mail with an answer to the question of your choice.</p>*@
+            <form method="post" action="#" class="form-optin">
+
+                <div class="row">
+                    <div class="col-md-6 right-form">First name</div>
+                    <div class="col-md-2 bottom-form"><input type="text" name="prenom" id="prenom" style="width:210px;"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 right-form">Last name</div>
+                    <div class="col-md-2 bottom-form"><input type="text" name="prenom" id="prenom" style="width:210px;"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 right-form">Contact Number</div>
+                    <div class="col-md-2 bottom-form"><input type="text" name="prenom" id="prenom" style="width:210px;"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 right-form">E-mail address *</div>
+                    <div class="col-md-2 bottom-form"><input type="text" name="prenom" id="prenom" style="width:210px;"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6 right-form">Message</div>
+                    <div class="col-md-2 bottom-form"><input type="text" name="email" id="email" style="width:210px;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 right-form">Country</div>
+                    <div class="col-md-2 bottom-form">
+                        <select name="country" id="country">
+                            <option value="0">Select...</option>
+                            <option value="1">United States</option>
+                            <option value="2">United Kingdom</option>
+                            <option value="3">Canada</option>
+                            <option value="4">Australia</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="checkons">
+                    <p class="check_row">
+                        By clicking on the button below "I want to receive answers", you declare you are over 18 years old and accept our <a href="terms.html" target="_blank" style="color:#fff;text-decoration:underline;">terms and conditions of use</a>. You agree to receive regular tarot readings and clairvoyance offers from us by e-mail. You can unsubscribe at any time by clicking on the unsubscribe link at the bottom of each e-mail.
+                    </p>
+                    <div style="clear:both;"></div>
+                </div>
+
+                <div class="erreur" style="color:#ff5a5a;margin-top:5px;"></div>
+
+
+                <div class="btn-group">
+                    <a class="button" href="#" id="optinok" onClick="javascript:return false;">I want to receive answers</a>
+                </div>
+
+            </form>
+
+            </div>
+
+
+            <div id="ajax_ok" style="display:none;max-width: 600px; margin: auto;">
+                <h2 class="title_result">I have received your request.</h2>
+
+
+                <p style="text-align:left;margin-bottom:20px;">
+                    As you asked, I am going to carry out a personal draw for you and will send you an answer the following question by e-mail: "<span id="show-question"></span>"
+                </p>
+
+                <p style="text-align:left;margin-bottom:20px;">It should arrive in a few hours.</p>
+
+                <p style="text-align:left;margin-bottom:20px;">
+                    If haven't received your draw within 48 hours, please check in your junk or spam folders. You can also add my e-mail address <a style="color:#fbf5d2;" href="mailto:eva@evatarot.net">eva@evatarot.net</a> to your address book to avoid my work being lost and you not seeing it.
+                </p>
+
+                <p>
+                    Kind regards,<br />
+                    Your Tarologist
+                </p>
+
+            </div>
+
+            @Html.Partial("_AboutSection")
+
+        </div>
+
+        <p class="mentions bas">
+            Your personal details will never be passed to third parties. In accordance with the law you, have a right of access to modify and rectify data. To do this click on the following link: <a href="terms.html">General Conditions.</a><br />
+            * By completing your e-mail address, you agree to receive clairvoyance offers from Eva Delattre
+        </p>
+
+    </section>
+
+
+</div>
+

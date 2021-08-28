@@ -47,7 +47,7 @@ ul, li, ol{list-style: none; margin: 0;padding: 0;}
 
 li {color: #313131; }
 .inline li{display: inline-block;vertical-align: top: ;}
-a, a:hover, a:focus, a:active{display: inline-block;vertical-align: top; color: #313131;text-decoration: none;}
+a, a:hover, a:focus, a:active{display: inline-block;vertical-align: top; color: #fff;text-decoration: none;}
 a:hover, a:focus, a:active{color: #313131;}
 img{display: inline-block; max-width: 100%;}
 
@@ -174,7 +174,7 @@ header {
           CONTENT
 --------------------------------------------------------*/
 .dark-section {
-  background: #000 url("images/bg.jpg") no-repeat scroll 50% 0;
+  background: #000 url("../images/bg.jpg") no-repeat scroll 50% 0;
   background-size: cover;
   padding: 10rem 0 7rem;
 }
@@ -386,7 +386,7 @@ header {
 
 
 /*.dark-section .card-chosen::after {
-  content: url("images/bg/bg1.png") url("images/bg/bg3.png") url("images/bg/bg4.png") url("images/bg/bg5.png");
+  content: url("../images/bg/bg1.png") url("../images/bg/bg3.png") url("../images/bg/bg4.png") url("../images/bg/bg5.png");
   height: 100%;
   left: 18%;
   overflow: hidden;
@@ -397,21 +397,21 @@ header {
 }
 
 
-.dark-section .card-chosen.bg2::after {content: url("images/bg/bg2.png") url("images/bg/bg3.png") url("images/bg/bg4.png") url("images/bg/bg5.png") url("images/bg/bg6.png") url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg3::after {content: url("images/bg/bg3.png") url("images/bg/bg4.png") url("images/bg/bg5.png") url("images/bg/bg6.png") url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg4::after {content: url("images/bg/bg4.png") url("images/bg/bg5.png") url("images/bg/bg6.png") url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg5::after {content: url("images/bg/bg5.png") url("images/bg/bg6.png") url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg6::after {content: url("images/bg/bg6.png") url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg7::after {content: url("images/bg/bg7.png") url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg8::after {content: url("images/bg/bg8.png") url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg9::after {content: url("images/bg/bg9.png") url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg10::after {content: url("images/bg/bg10.png") url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg11::after {content: url("images/bg/bg11.png") url("images/bg/bg.png"); }
-.dark-section .card-chosen.bg::after {content: url("images/bg/bg.png"); }*/
+.dark-section .card-chosen.bg2::after {content: url("../images/bg/bg2.png") url("../images/bg/bg3.png") url("../images/bg/bg4.png") url("../images/bg/bg5.png") url("../images/bg/bg6.png") url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg3::after {content: url("../images/bg/bg3.png") url("../images/bg/bg4.png") url("../images/bg/bg5.png") url("../images/bg/bg6.png") url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg4::after {content: url("../images/bg/bg4.png") url("../images/bg/bg5.png") url("../images/bg/bg6.png") url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg5::after {content: url("../images/bg/bg5.png") url("../images/bg/bg6.png") url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg6::after {content: url("../images/bg/bg6.png") url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg7::after {content: url("../images/bg/bg7.png") url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg8::after {content: url("../images/bg/bg8.png") url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg9::after {content: url("../images/bg/bg9.png") url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg10::after {content: url("../images/bg/bg10.png") url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg11::after {content: url("../images/bg/bg11.png") url("../images/bg/bg.png"); }
+.dark-section .card-chosen.bg::after {content: url("../images/bg/bg.png"); }*/
 
 
 .dark-section .card-chosen {
-  background:url(images/bg/sprite-sun.png) no-repeat scroll 0 0 transparent;
+  background:url(../images/bg/sprite-sun.png) no-repeat scroll 0 0 transparent;
   min-height: 510px;
   -webkit-transition: margin 0s ease 0s;
   -moz-transition: margin 0s ease 0s;
@@ -430,17 +430,17 @@ header {
 .dark-section .card-chosen.bg11{background-position: -3976px -513px;}
 .dark-section .card-chosen.bg{background-position: -4971px -513px;}
 
-#preload-bg2 { background: url("images/bg/bg2.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg3 { background: url("images/bg/bg3.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg4 { background: url("images/bg/bg4.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg5 { background: url("images/bg/bg5.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg6 { background: url("images/bg/bg6.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg7 { background: url("images/bg/bg7.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg8 { background: url("images/bg/bg8.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg9 { background: url("images/bg/bg9.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg10 { background: url("images/bg/bg10.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg11 { background: url("images/bg/bg11.png") no-repeat scroll 50% 0 transparent; }
-#preload-bg { background: url("images/bg/bg.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg2 { background: url("../images/bg/bg2.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg3 { background: url("../images/bg/bg3.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg4 { background: url("../images/bg/bg4.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg5 { background: url("../images/bg/bg5.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg6 { background: url("../images/bg/bg6.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg7 { background: url("../images/bg/bg7.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg8 { background: url("../images/bg/bg8.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg9 { background: url("../images/bg/bg9.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg10 { background: url("../images/bg/bg10.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg11 { background: url("../images/bg/bg11.png") no-repeat scroll 50% 0 transparent; }
+#preload-bg { background: url("../images/bg/bg.png") no-repeat scroll 50% 0 transparent; }
 
 
 .dark-section .card-chosen.opacity-zero{
@@ -604,18 +604,18 @@ footer .row > div:last-child li:last-child a {font-size: 1.4rem; }
 
   h2 {margin: 4rem 0 1rem; }
   /*.dark-section .card-chosen{background-size: contain; background: none transparent scroll 50% 0;}*/
-  .dark-section .card-chosen {background: url("images/bg/bg1.png") no-repeat scroll 50% 0 transparent; background-size: contain; }
-  .dark-section .card-chosen.bg2 {background-image: url("images/bg/bg2.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg3 {background-image: url("images/bg/bg3.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg4 {background-image: url("images/bg/bg4.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg5 {background-image: url("images/bg/bg5.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg6 {background-image: url("images/bg/bg6.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg7 {background-image: url("images/bg/bg7.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg8 {background-image: url("images/bg/bg8.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg9 {background-image: url("images/bg/bg9.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg10 {background-image: url("images/bg/bg10.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg11 {background-image: url("images/bg/bg11.png"); background-position: 50% 0; }
-  .dark-section .card-chosen.bg {background-image: url("images/bg/bg.png"); background-position: 50% 0; }
+  .dark-section .card-chosen {background: url("../images/bg/bg1.png") no-repeat scroll 50% 0 transparent; background-size: contain; }
+  .dark-section .card-chosen.bg2 {background-image: url("../images/bg/bg2.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg3 {background-image: url("../images/bg/bg3.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg4 {background-image: url("../images/bg/bg4.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg5 {background-image: url("../images/bg/bg5.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg6 {background-image: url("../images/bg/bg6.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg7 {background-image: url("../images/bg/bg7.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg8 {background-image: url("../images/bg/bg8.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg9 {background-image: url("../images/bg/bg9.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg10 {background-image: url("../images/bg/bg10.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg11 {background-image: url("../images/bg/bg11.png"); background-position: 50% 0; }
+  .dark-section .card-chosen.bg {background-image: url("../images/bg/bg.png"); background-position: 50% 0; }
   .dark-section .card-chosen::after{content: ''!important;}
 
 
